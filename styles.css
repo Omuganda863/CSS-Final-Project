@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.hero{
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./images/hero.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.center-nav {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navigation-logo {
+    color: white;
+}
+.navigation-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.navigation-links li a {
+    text-decoration: none;
+    color: white;
+
+}
+.nav-buttons {
+    display: flex;
+    gap: 40px;
+}
+.login {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.register {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    color: white;
+}
+.center-body {
+    margin: 100px;
+    text-align: center;
+    color: white;
+}
+
+.get-quote, .learn-more {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.get-quote {
+    background-color: aqua;
+    border: none;
+}
+.quote-buttons {
+    margin-top: 40px;
+}
