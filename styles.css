@@ -7,7 +7,14 @@
     padding: 0;
     font-family: Montserrat;
 }
-
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 .hero{
     background-image: linear-gradient(
       to right,
@@ -37,7 +44,6 @@
     color: white;
 }
 .navigation-links {
-    list-style: none;
     padding: 0;
     display: flex;
     gap: 20px;
@@ -47,6 +53,9 @@
     text-decoration: none;
     color: white;
 
+}
+.nav-menu {
+    display: none;
 }
 .nav-buttons {
     display: flex;
@@ -64,7 +73,9 @@
     color: white;
 }
 .center-body {
-    margin: 100px;
+    width: 90vw;
+    max-width: 1000px;
+    margin: 100px auto;
     text-align: center;
     color: white;
 }
@@ -83,4 +94,296 @@
 }
 .quote-buttons {
     margin-top: 40px;
+}
+
+.peace-set-100 {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 30px 0;
+    
+}
+
+.center-cards {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: translateY(-50%);    
+
+}
+
+.center-icons {
+    /* border: 1px solid black; */
+    padding: 5rem 0;
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 25px;
+}
+
+.industry-container {
+    margin-bottom: 5rem;
+}
+
+.center-middle-content {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.reviews-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px;
+    margin-bottom: 200px;
+}
+
+
+.reviews {
+    text-align: center;
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.reviews img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.reviews-body {
+    margin-top: 30px;
+}
+
+.ratings {
+    margin-top: 20px;
+    color: goldenrod;
+}
+
+.social-center {
+   
+    padding: 30px 0;
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.social-center img {
+    width: 100px;
+}
+.subscription-center {
+    margin-top: 30px;
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns:1fr 2fr;
+    gap: 150px;
+    background-color: purple;
+    padding: 5rem 2rem;
+}
+.subscribe-title {
+
+    color:white;
+   
+}
+.form {
+  
+    position: relative;
+    height: 40px;
+
+}
+.form-input-sub{
+    padding-left: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    width: 100%;
+    height: 100%;
+}
+.form-btn {
+    padding: 10px 20px;
+    background-color: aqua;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+}
+.pricetag-center {
+    padding: 60px 0;
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.pricing-body {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cards {
+    border: 2px solid aqua;
+    padding: 30px;
+    border-radius: 5px;
+}
+.coverage {
+    background-color: #111B40;
+}
+.coverage-center {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    min-height: 100vh;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+}
+
+.coverage-img img {
+    display: block;
+    width: 100%;
+}
+.contact {
+    padding: 50px 0;
+}
+.contact-header {
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: translateY(-20%);
+}
+
+.contact-center {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contact-img img {
+    width: 100%;
+    height: 100%;
+
+}
+.form-b {
+    padding: 30px;
+    height: 100%;
+    background-color: white;
+
+}
+.book-appointment {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form-input {
+    margin: 10px 0 30px;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.appointment-btn {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+}
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.footer {
+    margin-top: 5rem;
+}
+.footer-center {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.final-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+@media(max-width: 700px) {
+    .navigation-links, .nav-buttons {
+        display: none;
+    }
+    .nav-menu {
+        display: block;
+        color: white;
+        font-size: 2rem;
+    }
+    .reviews-container, .center-icons, .peace-set-100{
+        grid-template-columns: 1fr; 
+        
+    }
+    .center-cards {
+        
+        transform: translateY(0);
+    }
+    .social-center img {
+        width: 40px;
+    }
+    .subscription-center {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+     }
+     .pricing-body {
+        grid-template-columns: 1fr;
+    }
+    .coverage-center {
+        grid-template-columns: 1fr;
+    }
+    .contact-header {
+        grid-template-columns: 1fr;
+        transform: translateY(0%);
+    }
+    .contact-img {
+        display: none;
+    }
+    .contact-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-header {
+        
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+   
 }
